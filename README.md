@@ -1,6 +1,6 @@
 # Book Management System
 
-This is a simple RESTful API for managing a collection of books.
+It is a simple RESTful API for managing a collection of books written in Go.
 
 ## Gin Framework
 
