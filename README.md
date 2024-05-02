@@ -44,4 +44,8 @@ Once the application is running, you can interact with it using HTTP requests. H
   ```bash
   curl 'localhost:8080/return?id=1' --request "PATCH"
   ```
+  ### Preview of different endpoints
+  
+  ![Terminal Output image](https://github.com/Shreyank031/Book-Management-System/blob/master/terminal_output.png)
+
 
