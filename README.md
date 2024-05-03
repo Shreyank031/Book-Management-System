@@ -17,17 +17,28 @@ Once the application is running, you can interact with it using HTTP requests. H
 - `PATCH /checkout?id=:id`: Check out a book by its ID.
 - `PATCH /return?id=:id`: Return a book by its ID.
 
+### Clone this Repo:
+
+  ```
+  git clone https://github.com/Shreyank031/Book-Management-System.git
+  ```
+**Run the main.go file**
+
+```
+  go run main.go
+```
+
 - **Retrieve all books**: 
   `GET /books`  
 
-```bash
+  ```bash
   curl localhost:8080/books
   ```
 
 - **Add a new book** :
   `POST /books`
   ```bash
-  curl localhost:8080/books --include --header "Content-Type: applicationo/json" -d @<file_name_json> --request "POST"
+  curl localhost:8080/books --include --header "Content-Type: application/json" -d @<file_name_json> --request "POST"
   ```
 - **Retrieve details of a specific book**:
   `GET /books/:id`
